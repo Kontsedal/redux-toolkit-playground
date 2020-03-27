@@ -37,7 +37,7 @@ export const HomePageView = ({
     <div className={s.page}>
       {loadIngredientsError && (
         <p className={s.error}>
-          Load ingredients error: {loadIngredientsError}
+          Load ingredients error: {loadIngredientsError.message}
         </p>
       )}
       <div>

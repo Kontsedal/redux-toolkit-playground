@@ -9,9 +9,11 @@ import {
   Redirect,
 } from "react-router-dom";
 import { HomePage } from "./Home";
+import { CocktailPage } from "./Cocktail";
 
 export const ROUTES = {
   HOME: "/",
+  COCKTAIL: "/cocktail/:id",
 };
 
 export const RootPage = () => (
@@ -21,7 +23,9 @@ export const RootPage = () => (
         <Route exact path={ROUTES.HOME}>
           <HomePage />
         </Route>
-
+        <Route exact path={ROUTES.COCKTAIL}>
+          <CocktailPage />
+        </Route>
         <Route>
           <Redirect to={ROUTES.HOME} />
         </Route>
