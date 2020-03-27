@@ -1,0 +1,20 @@
+.cocktail {
+  width: 33%;
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #272727;
+    color: #bfb9de;
+  }
+  .cover {
+    width: 100%;
+    height: auto;
+  }
+
+  .name {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+}

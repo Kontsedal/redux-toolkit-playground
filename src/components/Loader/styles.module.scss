@@ -1,0 +1,52 @@
+.loader {
+  width: 40px;
+  height: 40px;
+}
+
+.loader .loaderCube {
+  width: 33%;
+  height: 33%;
+  background-color: #333;
+  float: left;
+  animation: loaderCubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.loader .loaderCube1 {
+  animation-delay: 0.2s;
+}
+.loader .loaderCube2 {
+  animation-delay: 0.3s;
+}
+.loader .loaderCube3 {
+  animation-delay: 0.4s;
+}
+.loader .loaderCube4 {
+  animation-delay: 0.1s;
+}
+.loader .loaderCube5 {
+  animation-delay: 0.2s;
+}
+.loader .loaderCube6 {
+  animation-delay: 0.3s;
+}
+.loader .loaderCube7 {
+  animation-delay: 0s;
+}
+.loader .loaderCube8 {
+  animation-delay: 0.1s;
+}
+.loader .loaderCube9 {
+  animation-delay: 0.2s;
+}
+
+@keyframes loaderCubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
