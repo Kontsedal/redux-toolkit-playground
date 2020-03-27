@@ -4,6 +4,6 @@ import { ingredientsSlice } from "./entities/ingredients/slice";
 
 export const store = configureStore({
   reducer: combineReducers({
-    ingredientsSlice: ingredientsSlice.reducer,
+    ingredients: ingredientsSlice.reducer,
   }),
 });
