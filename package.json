@@ -21,7 +21,7 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.9",
     "prettier": "^2.0.2",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
